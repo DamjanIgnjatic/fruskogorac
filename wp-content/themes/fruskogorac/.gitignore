@@ -26,4 +26,6 @@ error_log
 
 # Ignore the normalize folder
 normalize/*
+
+**/Auth/*
  
