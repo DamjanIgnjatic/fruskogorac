@@ -8,6 +8,10 @@ body.startertheme {
   font-size: $font-size;
   font-weight: $font-weight-base;
   line-height: $line-height-base;
+  background-image: url("../../images/mountain.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   &.freez {
     overflow: hidden;
