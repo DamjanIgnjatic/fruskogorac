@@ -20,12 +20,13 @@
     }
   }
 }
-.header{
-  height:112px;
-  &--wrapper{
-    display:flex;
+.header {
+  height: 11.2rem;
+  position: fixed;
+  inset: 0;
+  &--wrapper {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
   }
 }

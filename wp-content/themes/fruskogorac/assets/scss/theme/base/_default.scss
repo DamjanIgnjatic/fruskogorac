@@ -3,7 +3,7 @@ html,
 body.startertheme {
   min-height: 100vh;
   background: $background;
-  color: $text;
+  color: $white;
   font-family: $text-font;
   font-size: $font-size;
   font-weight: $font-weight-base;
@@ -24,18 +24,21 @@ body.startertheme {
   }
 }
 
+html {
+  font-size: 62.5%; // 10/16*100
+}
+
 hr {
   border-color: $gray-500;
 }
 
 a {
   text-decoration: none !important;
-
 }
 ul {
   list-style: none;
   padding: 0 !important;
-  margin:0 !important;
+  margin: 0 !important;
 }
 
 b,

@@ -3,4 +3,58 @@
 @import "../../assets/scss/theme/base/mixins";
 
 .section-hero {
+  padding: 19.2rem 0 26.4rem !important;
+  &--title {
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 28.4rem;
+    p {
+      font-size: 5.6rem;
+      line-height: 6.4rem;
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-weight: 900;
+    }
+  }
+
+  &--links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc((100vw - 1340px) / 2);
+    margin-left: 20px;
+
+    a {
+      max-width: 85.9rem;
+      width: 100%;
+      background-color: red;
+      height: 30rem;
+    }
+
+    .blog-link {
+      max-width: 52.8rem;
+      width: 100%;
+      height: 24.3rem;
+      display: inline-block;
+      font-size: 2.4rem;
+      line-height: 1;
+      color: $white;
+      background-color: rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(32px);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: contain;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+
+      span {
+        padding: 3.2rem 0 0 3.2rem;
+        display: inline-block;
+      }
+    }
+  }
 }
