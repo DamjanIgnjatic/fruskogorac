@@ -29,12 +29,13 @@ hr {
 }
 
 a {
-  transition: color ease-in-out 240ms;
-  color: $primary;
+  text-decoration: none !important;
 
-  &:hover {
-    color: $primary-hover;
-  }
+}
+ul {
+  list-style: none;
+  padding: 0 !important;
+  margin:0 !important;
 }
 
 b,

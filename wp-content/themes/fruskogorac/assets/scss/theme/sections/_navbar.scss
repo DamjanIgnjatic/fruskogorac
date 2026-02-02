@@ -20,3 +20,12 @@
     }
   }
 }
+.header{
+  height:112px;
+  &--wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+}

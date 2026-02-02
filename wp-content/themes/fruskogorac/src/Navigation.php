@@ -72,7 +72,7 @@ class Navigation
             'after'           => '',
             'link_before'     => '',
             'link_after'      => '',
-            'items_wrap'      => '<div class="theme-menu-content"><ul>%3$s</ul></div>',
+            'items_wrap'      => '<ul>%3$s</ul>',
             'depth'           => 0,
             'walker'          => ''
         ]);
