@@ -24,9 +24,81 @@
   height: 11.2rem;
   position: fixed;
   inset: 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1.5px solid $gray-secondary;
+  a{
+    color: $white;
+  }
   &--wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
+    .left-nav{
+
+    }
+    .middle-nav {
+
+      ul{
+        display: flex;
+    align-items: center;
+    gap: 48px;
+    
+
+        li{
+          position: relative;
+          padding: 4rem 0;
+          a{
+font-size: 18px;
+line-height: 32px;
+          }
+          &::after{
+            content:'';            
+            position: absolute;
+            width: 7.6rem;
+            height:8px;
+            background-color: $white;
+            left:50%;
+            transform: translateX(-50%);
+            bottom: 0px;
+            display: none;
+
+            
+
+
+        
+          }
+          &.current-menu-item{
+            &::after{
+              display: block;
+
+            }
+            a{
+              font-weight: 500 !important;
+              
+            }
+          }
+        }
+
+      }
+      
+
+
+    }
+    .right-nav{
+      
+      padding:8px 1.6rem 8px 8px ;
+      background-color: $dark-background;
+      border-radius: 1.2rem;
+      display: flex;
+      gap: 1.6rem;
+      align-items:center ;
+      font-size: 2rem;
+      line-height:2.8rem ;
+      font-weight: 500;
+    }
   }
+
 }
