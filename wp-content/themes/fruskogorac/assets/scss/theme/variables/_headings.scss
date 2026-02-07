@@ -1,50 +1,26 @@
-// Headings
-@mixin heading() {
-  font-family: $title-font;
-  color: $title;
-  line-height: $title-line-height;
-  letter-spacing: $title-letter-spacing;
-  font-weight: $font-weight-bold;
+h1 {
+  font-size: 15.6rem;
+  line-height: 10rem;
+  color: $white;
+}
 
-  a {
-    color: $title;
-    text-decoration: none;
+h2 {
+  font-size: 7.2rem;
+  line-height: 8.4rem;
+
+  @media (max-width: $lg) {
+    font-size: 4rem;
+    line-height: 5.6rem;
+  }
+
+  @media (max-width: $md) {
+    font-size: 3.2rem;
+    line-height: normal;
   }
 }
 
-body {
+h3 {
+}
 
-  h1,
-  .h1 {
-    font-size: 15.6rem;
-    line-height: 10rem;
-    color: $white;
-  }
-
-  h2,
-  .h2 {
-
-
-    font-size: 7.2rem;
-    line-height: 8.4rem;
-
-    @media (max-width : $lg) {
-      font-size: 4rem;
-      line-height: 5.6rem;
-    }
-
-    @media (max-width : $md) {
-      font-size: 3.2rem;
-      line-height: normal;
-    }
-
-
-
-  }
-
-  h3,
-  .h3 {}
-
-  h4,
-  .h4 {}
+h4 {
 }

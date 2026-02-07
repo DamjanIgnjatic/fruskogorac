@@ -4,7 +4,7 @@
 		<section class="section section block main-content-section">
 			<div class="container">
 				<h1 class="h2">
-					<?php _e('Search results for', 'startertheme'); ?> <span class="text-primary"><?php echo get_search_query(); ?></span> (<?php echo $wp_query->found_posts; ?>)
+					<?php _e('Search results for', 'fruskogorac'); ?> <span class="text-primary"><?php echo get_search_query(); ?></span> (<?php echo $wp_query->found_posts; ?>)
 				</h1>
 				<?php if (have_posts()): ?>
 					<section class="article-section posts">

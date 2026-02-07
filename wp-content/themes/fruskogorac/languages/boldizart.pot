@@ -68,7 +68,7 @@ msgid "Author Archives for - "
 msgstr ""
 
 #. Author of the theme
-msgid "Boldizar Santo (@startertheme)"
+msgid "Boldizar Santo (@fruskogorac)"
 msgstr ""
 
 #. Name of the theme
@@ -179,7 +179,7 @@ msgstr ""
 
 #. URI of the theme
 #. Author URI of the theme
-msgid "http://startertheme.com"
+msgid "http://fruskogorac.com"
 msgstr ""
 
 #: functions.php:986

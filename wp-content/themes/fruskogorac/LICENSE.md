@@ -1,4 +1,4 @@
-# [Fruskogorac](http://startertheme.com) License
+# [Fruskogorac](http://fruskogorac.com) License
 
 ## License
 

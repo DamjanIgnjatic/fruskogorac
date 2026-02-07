@@ -98,12 +98,12 @@ class CustomPostTypes
             'search_items' => __('Search projects', 'fruskogorac'),
             'all_items' => __('All projects', 'fruskogorac'),
             'parent_item' => __('Parent project', 'fruskogorac'),
-            'parent_item_colon' => __('Parent project:', 'startertheme'),
-            'edit_item' => __('Edit project', 'startertheme'),
-            'update_item' => __('Update project', 'startertheme'),
-            'add_new_item' => __('Add new project', 'startertheme'),
-            'new_item_name' => __('New project', 'startertheme'),
-            'menu_name' => __('Projects', 'startertheme'),
+            'parent_item_colon' => __('Parent project:', 'fruskogorac'),
+            'edit_item' => __('Edit project', 'fruskogorac'),
+            'update_item' => __('Update project', 'fruskogorac'),
+            'add_new_item' => __('Add new project', 'fruskogorac'),
+            'new_item_name' => __('New project', 'fruskogorac'),
+            'menu_name' => __('Projects', 'fruskogorac'),
         ];
 
         // Set args

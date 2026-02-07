@@ -37,12 +37,12 @@
 									<small>
 										<?php echo str_replace(['[y]', '[Y]'], date('Y'), $copyright); ?>
 										<?php if (!str_contains($copyright, 'BoldizArt')): ?>
-											<a href="https://boldizart.com/"><?php _e('Web development', 'startertheme'); ?> BoldizArt</a>
+											<a href="https://boldizart.com/"><?php _e('Web development', 'fruskogorac'); ?> BoldizArt</a>
 										<?php endif; ?>
 									</small>
 								<?php else: ?>
-									<small>&copy; <?php _e('Copyright', 'startertheme'); ?> <?php echo date('Y'); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a> | 
-									<?php _e('All rights reserved', 'startertheme'); ?>.</small>
+									<small>&copy; <?php _e('Copyright', 'fruskogorac'); ?> <?php echo date('Y'); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a> | 
+									<?php _e('All rights reserved', 'fruskogorac'); ?>.</small>
 								<?php endif; ?>
 							</div>
 						<?php endif; ?>

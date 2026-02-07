@@ -16,11 +16,11 @@
 			<div class="content text-center">
 				<h1 class="h1 h0">404</h1>
 				<p class="text">
-					<b><?php _e('Ouch!', 'startertheme'); ?></b><br>
-					<?php _e('It looks that the page will not arrive.', 'startertheme'); ?><br>
-					<?php _e('Don\'t wait more!', 'startertheme'); ?>
+					<b><?php _e('Ouch!', 'fruskogorac'); ?></b><br>
+					<?php _e('It looks that the page will not arrive.', 'fruskogorac'); ?><br>
+					<?php _e('Don\'t wait more!', 'fruskogorac'); ?>
 				</p>
-				<a href="<?php echo home_url(); ?>" class="btn go-home"><?php _e('Go Home', 'startertheme'); ?></a>
+				<a href="<?php echo home_url(); ?>" class="btn go-home"><?php _e('Go Home', 'fruskogorac'); ?></a>
 			</div>
 		<?php endif; ?>
 		<?php wp_reset_postdata(); ?>

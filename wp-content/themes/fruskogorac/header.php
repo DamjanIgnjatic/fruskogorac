@@ -13,7 +13,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class('startertheme'); ?>>
+<body <?php body_class('fruskogorac'); ?>>
 	<?php if (!is_page_template('templates/template-plain.php')): ?>
 		<header class="section header">
 			<div class="container">

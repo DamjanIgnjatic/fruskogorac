@@ -1,6 +1,15 @@
-// Defaults
-html,
-body.startertheme {
+// RESET - DEFAULT VALUES
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body.fruskogorac {
   min-height: 100vh;
   background: $background;
   color: $white;
@@ -13,10 +22,6 @@ body.startertheme {
   background-repeat: no-repeat;
   background-size: cover;
 
-  &.freez {
-    overflow: hidden;
-  }
-
   &.admin-bar {
     .navigation-section {
       top: 32px;
@@ -24,38 +29,10 @@ body.startertheme {
   }
 }
 
-html {
-  font-size: 62.5%; // 10/16*100
-}
-
-hr {
-  border-color: $gray-500;
-}
-
-a {
-  text-decoration: none !important;
-}
 ul {
   list-style: none;
   padding: 0 !important;
   margin: 0 !important;
-}
-
-b,
-strong {
-  font-weight: $font-weight-bold;
-}
-
-// Container padding on mobile devices
-@media only screen and (min-width: $xs) {
-  .container {
-    padding-right: 22px;
-    padding-left: 22px;
-  }
-}
-
-.z-index {
-  z-index: 5;
 }
 
 ::-webkit-scrollbar {
