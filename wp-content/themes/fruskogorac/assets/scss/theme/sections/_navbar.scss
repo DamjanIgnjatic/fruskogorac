@@ -1,28 +1,4 @@
-// Arrow function
-@mixin arrowAfter() {
-  &:after {
-    content: "";
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border: 2px solid $text;
-    border-top: none;
-    border-left: none;
-    transform: rotate(45deg);
-    position: absolute;
-    top: 35px;
-    right: 35px;
-    transition: all ease-in-out 280ms;
-
-    @media only screen and (min-width: $lg) {
-      top: 12px;
-      right: 0;
-    }
-  }
-}
-
 .header {
-
   height: 11.2rem;
   position: fixed;
   inset: 0;
@@ -43,7 +19,10 @@
     justify-content: space-between;
     align-items: center;
 
-    .left-nav {}
+    // TODO: DELETE HARDCODED LINK AND ADD IT FROM THE DASHBOARD
+    // check header.php file
+    .left-nav {
+    }
 
     .middle-nav {
       transition: all 0.3s ease-in;
@@ -56,8 +35,6 @@
         top: 11.2rem;
         background-color: salmon;
         transform: translateX(-100%);
-
-
       }
 
       ul {
@@ -69,7 +46,7 @@
           flex-direction: column;
           align-items: start;
           gap: 0;
-          padding: 0 !important;
+          padding: 0;
         }
 
         li {
@@ -88,7 +65,7 @@
           }
 
           &::after {
-            content: '';
+            content: "";
             position: absolute;
             width: 7.6rem;
             height: 8px;
@@ -110,7 +87,7 @@
             }
 
             a {
-              font-weight: 500 !important;
+              font-weight: 500;
             }
           }
         }
@@ -122,7 +99,6 @@
         @media (max-width: $lg) {
           display: none;
         }
-
       }
 
       &.mobile {
@@ -131,7 +107,6 @@
         @media screen and (max-width: $lg) {
           display: inline-block;
           margin: 3rem 2rem 0;
-
         }
       }
     }
@@ -142,7 +117,6 @@
 
       @media (max-width: $lg) {
         display: block;
-
       }
 
       .closed {
@@ -152,21 +126,21 @@
   }
 }
 
+// TODO: CHECK THIS - !important removed
+// TODO: NEW file for hamburger menu
 body {
   &.menu-open {
     .middle-nav {
       transform: translateX(0);
-
     }
 
     .hamburger-menu {
-
       .open {
         display: none;
       }
 
       .closed {
-        display: block !important;
+        display: block;
       }
     }
   }
